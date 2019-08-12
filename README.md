@@ -1,2 +1,5 @@
 # linux-j-vpn
-Connect vpn openvpn
+Connect / disconnect vpn openvpn.
+
+Main file connect -> vpn.sh
+Main fil disconnect -> mataVPN.sh
