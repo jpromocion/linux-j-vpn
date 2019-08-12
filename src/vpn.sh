@@ -7,7 +7,7 @@
 #Varios servidors, dejar descomentada la del servidor que se quiere
 #Cambiar:
 #	-La ruta donde este los ovpn que utilices
-#	-El ficheros de usuario/pass en cada caso
+#	-El ficheros de usuario/pass en cada caso -> ficheros simples: 1º fila usuario, 2º fila password
 ################################
 
 ######################
