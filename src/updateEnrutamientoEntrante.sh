@@ -26,11 +26,11 @@ else
 	echo "[J]: Note -> Ip Rule already"
 fi
 
-#ip de la mascara total
-EXIST=`ip route show table 128 to 192.168.0.0/24 dev enp2s0f0 | wc -l`
+#ip de la mascara total. enp34s0 o el que sea... mirarlo con ifconfig, es el nombre de tu router
+EXIST=`ip route show table 128 to 192.168.0.0/24 dev enp34s0 | wc -l`
 if [ $EXIST -eq 0 ]
 then
-    sudo ip route add table 128 to 192.168.0.0/24 dev enp2s0f0
+    sudo ip route add table 128 to 192.168.0.0/24 dev enp34s0
     echo "[J]: Ip Route interface add"
 else
 	echo "[J]: Note -> Ip Route interface already"
